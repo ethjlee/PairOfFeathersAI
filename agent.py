@@ -59,7 +59,7 @@ while True:
     
     # Convert the frame to BGR format
     frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
-    #cv2.imwrite('saved_image' + str(fps) + '.jpg', frame)
+    cv2.imwrite('saved_image' + str(fps) + '.jpg', frame)
     # Display the frame in the OpenCV window
     cv2.imshow('Game Capture', frame)
 
