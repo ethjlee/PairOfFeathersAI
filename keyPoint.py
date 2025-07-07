@@ -16,7 +16,7 @@ for filename in birdArray:
 
     img1 = cv.GaussianBlur(img1, (1,1), 0)
 
-    img2 = cv.imread(### replace with test image ####, cv.IMREAD_GRAYSCALE) # trainImage
+    img2 = cv.imread()### replace with test image ####, cv.IMREAD_GRAYSCALE) # trainImage
 
     img1 = cv.GaussianBlur(img1, (5,5), 0)
 
